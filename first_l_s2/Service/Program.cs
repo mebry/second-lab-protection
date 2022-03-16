@@ -1,9 +1,16 @@
-﻿using first_l_s2.DAO;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace first_l_s2
+namespace first_l_s2.Service
 {
-    public class ServiceClass
+    internal class Program
     {
-
+        public static void Main()
+        {
+            ServiceClass.MainProcess();
+        }
     }
 }

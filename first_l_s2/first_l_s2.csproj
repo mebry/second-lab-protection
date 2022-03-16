@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="ConsoleInput">
+      <HintPath>..\..\..\..\..\..\c#\ConsoleInput\bin\Debug\netcoreapp3.1\ConsoleInput.dll</HintPath>
+    </Reference>
+    <Reference Include="ShowTable">
+      <HintPath>..\..\..\..\..\..\c#\ShowTable\bin\Debug\netcoreapp3.1\ShowTable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
