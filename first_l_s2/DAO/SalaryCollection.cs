@@ -64,7 +64,7 @@ namespace first_l_s2.DAO
                 {
                     string[] text = line.Split(",");
 
-                    _salaries.Add(new Wages(int.Parse(text[0]), (Position)int.Parse(text[1])));
+                    _salaries.Add(new Wages(decimal.Parse(text[0]), (Position)int.Parse(text[1])));
                 }
             }
         }

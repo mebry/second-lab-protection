@@ -17,7 +17,7 @@ namespace first_l_s2.DAO
             {
                 throw new ArgumentNullException(nameof(path), "The parameter cannot be null.");
             }
-
+            
             if (!File.Exists(path))
             {
                 throw new ArgumentException(nameof(path), "The file not found.");
@@ -65,7 +65,7 @@ namespace first_l_s2.DAO
                     string[] text = line.Split(",");
 
                     _employees.Add(new Employee(int.Parse(text[0]), text[1],
-                        (Department)int.Parse(text[3]), (Position)int.Parse(text[3])));
+                        (Department)int.Parse(text[2]), (Position)int.Parse(text[3])));
                 }
             }
         }
