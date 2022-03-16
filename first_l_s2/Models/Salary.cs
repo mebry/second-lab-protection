@@ -5,7 +5,7 @@ namespace first_l_s2.Models
 {
     internal class Wages : ISalary
     {
-        public Wages(int salary, Position position)
+        public Wages(decimal salary, Position position)
         {
             if (salary < 0)
             {

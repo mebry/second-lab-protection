@@ -3,7 +3,6 @@
     internal enum Department
     {
         Marketing,
-        Main,
         Programming,
         Management
     }
